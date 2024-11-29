@@ -6,16 +6,20 @@
 回数を選択し、４種類の運勢の中からランダムに選ばれたものを出力する
 
 # インストール方法
+```bash
 $ git clone https://github.com/coffee0141/Task1.git
 $ cd Task1
 $ chmod +x aaa
+```
 
 # 実行例
+```bash
 $ ./aaa
 おみくじを何回引きますか？: 3
 
 おみくじの結果:
 大吉: 3回
+```
 
 # 注意書き
 ・実行可能な回数の制限
