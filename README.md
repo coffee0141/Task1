@@ -4,8 +4,7 @@
 [![Build Status](https://github.com/coffee0141/Task1/actions/workflows/test.yml/badge.svg)](https://github.com/coffee0141/Task1/actions/workflows/test.yml)
 
 ## プログラム詳細
-・一日の運勢を占うプログラム 
-・回数を選択し、４種類の運勢の中からランダムに選ばれたものを出力する
+指定された回数分のおみくじをランダムに引き,その結果を集計して表示します.
 
 ## インストール方法
 ```bash
@@ -15,11 +14,11 @@ $ chmod +x omikuji
 ```
 ## 実行例
 ```bash
-seq 10 | python3 omikuji
-3 小吉
+$ seq 10 | ./omikuji
 3 大吉
-2 凶
-2 中吉
+2 小吉
+4 凶
+1 中吉
 ```
 
 ## 注意書き
