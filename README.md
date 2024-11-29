@@ -9,12 +9,12 @@
 ## インストール方法
 ```bash
 $ git clone https://github.com/coffee0141/Task1.git
-$ cd Task1
-$ chmod +x omikuji
+$ cd Task1  #Task1に入る
+$ chmod +x omikuji  #権限を与える
 ```
 ## 実行例
 ```bash
-$ seq 10 | ./omikuji #10回ひく場合
+$ seq 10 | ./omikuji  #10回ひく場合
 3 大吉
 2 小吉
 4 凶
