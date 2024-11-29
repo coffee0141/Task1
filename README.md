@@ -14,7 +14,7 @@ $ chmod +x omikuji
 ```
 ## 実行例
 ```bash
-$ seq 10 | ./omikuji
+$ seq 10 | ./omikuji #10回ひく場合
 3 大吉
 2 小吉
 4 凶
