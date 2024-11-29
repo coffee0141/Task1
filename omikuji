@@ -5,6 +5,7 @@
 import sys
 import random
 from collections import Counter
+import subprocess
 
 kuji = ["大吉", "中吉", "小吉", "凶"]
 
@@ -13,6 +14,6 @@ results = [random.choice(kuji) for _ in sys.stdin]
 counter = Counter(results)
 
 for key, value in counter.items():
-    print(f"{value} {key}")
+    subprocess.run(["echo", f"{value} {key}"])
 
 
