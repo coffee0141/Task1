@@ -9,5 +9,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: All test
-      run: bash -xv ./aaa
+      run: python${{ matrix.python-version }} -m pip install --upgrade pip && python${{ matrix.python-version }} ./aaa
 
