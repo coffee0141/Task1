@@ -35,7 +35,7 @@ $ ./aaa
 Python
 
 # テスト環境
-Ubuntu
+Ubuntu 20.04 LTS
 
 # ライセンス
 
