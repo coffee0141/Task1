@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Haru Motoyama
+
+import random
+from collections import Counter
+
+kuji = ["大吉", "中吉", "小吉", "凶"]
+times = int(input("おみくじを何回引きますか？: "))
+
+results = [random.choice(kuji) for _ in range(times)]
+
+counter = Counter(results)
+
+print("\nおみくじの結果:")
+for key, value in counter.items():
+    print(f"{key}: {value}回")
+
