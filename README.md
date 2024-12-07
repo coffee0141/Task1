@@ -36,4 +36,4 @@ Ubuntu 20.04
 
 ## ライセンス
 このソフトウェアパッケージは, 3条項BSDライセンスの下，再頒布および使用が許可されます.
-詳しくはhttps://github.com/coffee0141/Task1/blob/main/LICENSE　を参照ください.
+
